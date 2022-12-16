@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 import { model, Schema } from 'mongoose';
 
-export const Order = model('Product', new Schema({
+export const Order = model('Order', new Schema({
   table: {
     type: String,
     required: true,
