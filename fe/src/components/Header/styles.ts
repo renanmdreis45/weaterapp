@@ -27,7 +27,6 @@ export const Content = styled.div`
       font-size: 16rem;
       opacity: 0.9;
       margin-top: 6px;
-
     }
   }
 `;
