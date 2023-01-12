@@ -3,10 +3,22 @@ import { OrdersBoard } from "../OrdersBoard"
 
 export function Orders() {
   return (
-    <> 
-      <OrdersBoard />
-      <OrdersBoard />
-      <OrdersBoard />
+    <>
+      <Container>
+        <OrdersBoard 
+          icon="⏲️"
+          title="Fila de espera"
+        />
+        <OrdersBoard 
+          icon="🧑‍🍳"
+          title="Em preparação"
+        />
+        <OrdersBoard 
+          icon="✅"
+          title="Pronto!"
+        />
+      </Container>
     </>
   )
 }
+
